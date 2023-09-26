@@ -5,7 +5,7 @@ import Homepage from './pages/Homepage'
 import Music from './pages/Music'
 import Art from './pages/Art'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { createBrowserRouter, RouteProvider, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {

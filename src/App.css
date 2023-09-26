@@ -43,9 +43,10 @@
 
 * {
   background-color: #FEEEEC;
+  /* background-color: #FFB5BB; */
 }
 
-body {
-  border-style: dashed;
-  
-}
+/* :root {
+  border-style: double;
+  margin: 100px;
+} */

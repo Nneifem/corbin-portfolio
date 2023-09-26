@@ -7,6 +7,7 @@ function Nav(){
 
     return(
         <>
+        
             <Link 
                 to='/homepage'
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
@@ -16,17 +17,15 @@ function Nav(){
             <Link
                 to='/art'
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                img src={artFolder} alt='art folder'
             >  
-                Art
+                <img src={artFolder} className='art-image-folder' alt='art folder'></img>
             </Link>
 
             <Link
                 to='/music'
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                img src={musicFolder} alt='art folder'
             >  
-                Music
+                <img src={musicFolder} className='music-image-folder' alt='music folder'></img>
             </Link>
         </>
     )
