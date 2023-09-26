@@ -1,11 +1,52 @@
 import singleOne from '../assets/images/summer.jpeg';
 import singleTwo from '../assets/images/caffeine.jpeg';
 import singleThree from '../assets/images/chess.jpeg';
+import Homepage from './Homepage';
+import  '../assets/images/styles/Music.css';
 
 export default function Music(){
+    const musics = [
+        {
+            song: "Summer Nostalgia",
+            link: "https://open.spotify.com/track/3mD6XEBkk3GzJarZOBQ59U?si=26395088ea2a4780",
+            image: singleOne,
+            released: 'September 4, 2022'
+        },
+        {
+            song: "Caffeine",
+            link: "https://open.spotify.com/track/0cKdzjEU0yZIWHYukc00dN?si=0706017a25004db6",
+            image: singleTwo,
+            released: 'September 26, 2022'
+        },
+        {
+            song: "CHESS",
+            link: "https://open.spotify.com/track/3QrYHHcxQgLjAZu4o6AO28?si=20ab6ba70a48472e",
+            image: singleThree,
+            released: 'December 17, 2022'
+        },
+    ]
+
+
     return(
         <>
             <h1>Music</h1>
+            <ul className='musics'>
+            {
+                musics.map((music, i) => (
+                    <li key ={i}>
+                        <div className='card text-center'>
+                            <h4 className='card-header'>{music.song}</h4>
+                            <div className='card-body'>
+                            <a href={music.link}><img src={music.image} className='album-images' alt='album cover' style={{ width: '20em'}}></img></a>
+                            </div>
+                            <div className='card-footer text-body-secondary'>Released: {music.released}</div>
+                        </div>
+                    </li>
+                ))
+            }
+            </ul>
+            <p className='something'><a href={'/homepage'} className='home-link'>Back to home</a></p>
+
         </>
     )
 }

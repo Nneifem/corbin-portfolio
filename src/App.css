@@ -47,6 +47,8 @@
 }
 
 /* :root {
-  border-style: double;
-  margin: 100px;
+  border: 15px solid #FFB5BB;
+  border-radius: 1%;
+  padding: 10px;
+  margin: 15px;
 } */
