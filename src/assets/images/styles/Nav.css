@@ -1,0 +1,8 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    margin-right: 50px
+}
