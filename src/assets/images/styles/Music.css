@@ -5,8 +5,13 @@ li {
 .music-title {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 50px;
+    font-size: 60px;
+}
+
+.music-description {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 17px;
 }
 
 .card {
@@ -21,14 +26,21 @@ li {
 
 .card-header {
     background-color: white;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 26px;
 }
 
 .card-body {
     background-color: white;
+    
 }
 
 .card-footer {
     background-color: white;
+    color: #FE7F9B;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .album-images {
@@ -37,10 +49,11 @@ li {
 
 .home-link {
     padding: 7px;
-    padding-top: 100px;
+    margin-top: 100px;
     text-decoration: none;
     display: flex;
     justify-content: center;
     color: #FE7F9B;
     font-size: 19px;
+    font-weight: bolder;
 }

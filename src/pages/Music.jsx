@@ -29,6 +29,7 @@ export default function Music(){
     return(
         <>
             <h1 className='music-title'>Music</h1>
+            <p className='music-description'>"Aspiring LBGT singer/songwriter who hopes to give others a safe<br />place, and someone to relate to through their music."</p>
             <ul className='musics'>
             {
                 musics.map((music, i) => (
@@ -38,7 +39,7 @@ export default function Music(){
                             <div className='card-body'>
                             <a href={music.link}><img src={music.image} className='album-images' alt='album cover' style={{ width: '20em'}}></img></a>
                             </div>
-                            <div className='card-footer text-body-secondary'>Released: {music.released}</div>
+                            <div className='card-footer'>Released: {music.released}</div>
                         </div>
                     </li>
                 ))
