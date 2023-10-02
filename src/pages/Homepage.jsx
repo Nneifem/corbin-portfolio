@@ -1,4 +1,5 @@
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import  '../assets/images/styles/Homepage.css';
 
 export default function Homepage(){
@@ -6,9 +7,10 @@ export default function Homepage(){
         <>
             <div className='info'>
                 <h1 className='corbin'>Corbin</h1>
-                <p className='description'>Welcome to My Portfolio!</p>
+                <p className='description'>Singer · Songwriter · Artist</p>
+                <Nav />
             </div>
-            <Nav />
+            <Footer />
         </>
     )
 }
