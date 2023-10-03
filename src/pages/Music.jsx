@@ -29,7 +29,7 @@ export default function Music(){
     return(
         <>
             <h1 className='music-title'>Music</h1>
-            <p className='music-description'>"Aspiring LBGT singer/songwriter who hopes to give others a safe<br />place, and someone to relate to through their music."</p>
+            <p className='music-description'>"Aspiring LBGT singer/songwriter who hopes to give others a safe<br />place, and someone to relate to through their music." - Kore</p>
             <ul className='musics'>
             {
                 musics.map((music, i) => (
