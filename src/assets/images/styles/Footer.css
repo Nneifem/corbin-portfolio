@@ -1,12 +1,18 @@
 .social-one {
-    width: 4%;
+    width: 2%;
+    margin-right: 9px;
 }
 
 .social-two {
-    width: 2.5%;
+    width: 2%;
 }
 
 .social-three {
+    margin-left: 4px;
+    width: 2%;
+}
+
+.social-four {
     margin-left: 10px;
     width: 2%;
 }

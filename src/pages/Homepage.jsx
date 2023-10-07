@@ -7,7 +7,7 @@ export default function Homepage(){
         <>
             <div className='info'>
                 <h1 className='corbin'>Corbin</h1>
-                <p className='description'>Singer · Songwriter · Artist</p>
+                <p className='description'>Singer · Songwriter · Artist · Streamer · Youtuber</p>
                 <Nav />
             </div>
             <Footer />

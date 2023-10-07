@@ -1,12 +1,13 @@
 .info {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 260px;
     font-family: Didot, serif;
-    margin-bottom: 150px;
+    margin-bottom: 180px;
 }
 
 .corbin {
-    font-size: 70px;
+    font-size: 100px;
+    font-family: Snell Roundhand, cursive;
 }
 
 .description {

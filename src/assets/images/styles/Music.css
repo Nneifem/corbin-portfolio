@@ -5,7 +5,8 @@ li {
 .music-title {
     text-align: center;
     padding-top: 30px;
-    font-size: 60px;
+    font-size: 100px;
+    font-family: Snell Roundhand, cursive;
 }
 
 .music-description {
@@ -17,7 +18,7 @@ li {
 .card {
     margin: 20px;
     opacity: 85%;
-    border: 1.5px solid #FFB5BB;
+    border: 1.9px solid #FFB5BB;
 }
 
 .musics {
@@ -31,9 +32,19 @@ li {
     color: #FFA6AF;
     font-style: oblique;
     font-weight: bold;
-    margin-top: 10px;
+    padding-top: 20px;
     font-size: 28px;
     border: #FFB5BB;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover .card-header {
+    color: #FE7F9B;
+    text-decoration: underline;
+    font-size: 31px;
 }
 
 .card-body {
