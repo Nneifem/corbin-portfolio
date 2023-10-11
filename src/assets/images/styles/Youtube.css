@@ -23,3 +23,9 @@ a {
     text-decoration: underline;
     color: #FD7094;
 }
+
+.youtube-video {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}

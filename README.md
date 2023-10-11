@@ -7,7 +7,7 @@ The portfolio is made to showcase the art, music, and youtube channel of Corbin.
 ## Usage
 Upon opening the website, there are three folders for the user to click to show either art, music, or youtube section of the page. The art page is still in progress, but once clicked all the art will be seperated by fanart or original works. In the music folder, it will show all the released music and can access the Spotify to the songs by clicking on the song title. Lastly, the youtube folder will contain the link of the youtube channel and display the latest video released. The homepage has a footer containing all of the socials media and clicking the icons will direct you to their accounts.
 
-Here is the link in the website:
+Here is the link in the website: <a href="https://corbinportfolio.netlify.app/">corbin's portfolio</a>
 
 
 ## License
