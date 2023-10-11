@@ -45,7 +45,7 @@ export default function Music(){
                 ))
             }
             </ul>
-            <p><a href={'/'} className='home-link'>↪ Back to home</a></p>
+            <p><a href={'/'} className='home-link'>⇒ Back to home ⇐</a></p>
 
         </>
     )
