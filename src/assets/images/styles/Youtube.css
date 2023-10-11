@@ -14,6 +14,12 @@
     width: 5%;
 }
 
-a {
+a { 
     color: #FE7F9B;
+    font-weight: bold;
+}
+
+.youtube-description a:hover {
+    text-decoration: underline;
+    color: #FD7094;
 }
