@@ -11,3 +11,17 @@
     margin-left: 4px;
     width: 2.5%;
 }
+
+
+@media screen and (max-width: 768px){
+    .social-one {
+        width: 10%;
+    }
+    .social-two {
+        width: 10%;
+    }
+    
+    .social-three {
+        width: 10%;
+    }
+}

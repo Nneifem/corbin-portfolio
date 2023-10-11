@@ -37,7 +37,7 @@ export default function Music(){
                         <div className='card text-center'>
                             <a href={music.link}><h4 className='card-header'>{music.song}</h4></a>
                             <div className='card-body'>
-                            <img src={music.image} className='album-images' alt='album cover' style={{ width: '20em'}}></img>
+                            <img src={music.image} className='img-fluid' alt='album cover' style={{ width: '20em'}}></img>
                             </div>
                             <div className='card-footer'>Released: {music.released}</div>
                         </div>
