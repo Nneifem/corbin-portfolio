@@ -10,7 +10,6 @@ export default function Footer () {
             <a href='https://www.instagram.com/corbininthemorning/'><img src={insta} className='social-one' alt='instagram logo'/></a>
             <a href='https://www.twitch.tv/corbunnie/schedule'><img src={twitch} className='social-two' alt='twitch logo'></img></a>
             <a href='https://www.etsy.com/shop/biaswrecked/?etsrc=sdt'><img src={cart} className='social-three' alt='cart icon'></img></a>
-            <a href='https://www.youtube.com/@corbininthemorning'><img src={youtube} className='social-four' alt='youtube icon'></img></a>
         </>
     )
 }

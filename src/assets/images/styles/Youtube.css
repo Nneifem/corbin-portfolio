@@ -1,0 +1,19 @@
+.youtube-title {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 100px;
+    font-family: Snell Roundhand, cursive;
+}
+
+.youtube-description {
+    text-align: center;
+    font-size: 17px;
+}
+
+.icon {
+    width: 5%;
+}
+
+a {
+    color: #FE7F9B;
+}

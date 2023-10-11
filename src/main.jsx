@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Homepage from './pages/Homepage'
 import Music from './pages/Music'
 import Art from './pages/Art'
+import Youtube from './pages/Youtube'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/music',
         element: <Music />
+      },
+      {
+        path: '/youtube',
+        element: <Youtube />
       },
     ]
   }
