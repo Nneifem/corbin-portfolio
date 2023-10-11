@@ -5,7 +5,7 @@ export default function Art(){
         <>
             <h1 className='art-title'>Art</h1>
             <p className='art-description'>coming soon...🤫</p>
-            <p><a href={'/homepage'} className='home-link'>↪ Back to home</a></p>
+            <p><a href={'/'} className='home-link'>↪ Back to home</a></p>
         </>
     )
 }
