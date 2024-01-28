@@ -7,7 +7,7 @@ export default function Youtube (){
             <h1 className='youtube-title'>Youtube</h1>
             <p className='youtube-description'>Corbininthemorning channel is about life and having a good time. <br /> Click <a href='https://www.youtube.com/@corbininthemorning'>here</a> to subscribe and watch the latest video</p>
             
-            <h1 className='new-video'><a href='https://www.youtube.com/watch?v=BNRmFMKX_ac'>୨୧ Newest Video ୨୧</a></h1>
+            <h1 className='new-video'><a href='https://www.youtube.com/watch?app=desktop&si=QLW-0WEReZB6yAc2&v=z3fTncrBhmA&feature=youtu.be'>୨୧ Newest Video ୨୧</a></h1>
             <section className='video-image'>
                 <img src={thumbnail} className='img-fluid' alt='youtube cover' style={{ width: '40em'}}></img>
             </section>
